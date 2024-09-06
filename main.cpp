@@ -17,7 +17,7 @@ cout << "This program calculates the Gross Profit, Net Profit and Distributor's 
 
 cout << "Enter the name of the movie: ";
 
-getline(cin, moviename);
+moviename = cin.get();
 
 cout << "Enter the amount of Adult Tickets sold: ";
 
