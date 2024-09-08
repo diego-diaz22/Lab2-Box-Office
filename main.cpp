@@ -19,7 +19,7 @@ cout << "Enter the name of the movie: ";
 
 getline(cin, moviename);
 
-cout << "/nEnter the amount of Adult Tickets sold: ";
+cout << "\nEnter the amount of Adult Tickets sold: ";
 
 cin >> adult_ticketsold;
 
