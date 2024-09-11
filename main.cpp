@@ -13,7 +13,7 @@ double adult_ticketsold;
 double child_ticketsold;
 string moviename;
 
-cout << "This program calculates the Gross Profit, Net Profit and Distributor's profit of a movie displaying in the theater." << endl << endl << endl;
+cout << "This program calculates the Gross Profit, Net Profit and Distributor's profit of a movie displaying in the theater." << endl << endl;
 
 cout << "Enter the name of the movie: ";
 
@@ -23,7 +23,7 @@ cout << "Enter the amount of Adult Tickets sold: ";
 
 cin >> adult_ticketsold;
 
-cout << endl << "Enter the amount of Child Tickets sold: ";
+cout <<"Enter the amount of Child Tickets sold: ";
 
 cin >> child_ticketsold;
 
@@ -35,11 +35,11 @@ double distributor_profit = gross_profit - net_profit;
 
 
 cout << endl << endl << "Name of the movie: \"" << moviename <<  "\"" << endl;
-cout << "Adult Tickets sold: " << setw(4) << "$" << setprecision(4) << adult_ticketsold << endl;
-cout << "Child Tickets sold: " << child_ticketsold << endl;
+cout << "Adult Tickets sold:" << setw(8) << "$" << setw(8) << setprecision(4) << adult_ticketsold << endl;
+cout << "Child Tickets sold:" << child_ticketsold << endl;
 cout << "Gross Box Office Profit: " << gross_profit << endl;
 cout << "Net Box Office Profit: " << net_profit << endl;
-cout << "Amount paid to distributor: " << distributor_profit << endl;
+cout << "Amount paid to distributor:" << setw(2) << "$" << setw(3) << distributor_profit << endl;
 
 
 
