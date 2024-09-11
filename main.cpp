@@ -34,12 +34,12 @@ double net_profit = gross_profit * 0.2;
 double distributor_profit = gross_profit - net_profit;
 
 
-cout << endl << endl << "Name of the movie: \"" << moviename <<  "\"" << endl;
-cout << "Adult Tickets sold:" << setw(8) << "$" << setw(8) << setprecision(4) << adult_ticketsold << endl;
-cout << "Child Tickets sold:" << child_ticketsold << endl;
-cout << "Gross Box Office Profit: " << gross_profit << endl;
-cout << "Net Box Office Profit: " << net_profit << endl;
-cout << "Amount paid to distributor:" << setw(2) << "$" << setw(3) << distributor_profit << endl;
+cout << endl << endl << "Name of the movie:" << setw(11) << "\"" << moviename <<  "\"" << endl;
+cout << "Adult Tickets sold:" << setw(14)  << setprecision(4) << adult_ticketsold << endl;
+cout << "Child Tickets sold:" << setw(14)  << child_ticketsold << endl;
+cout << "Gross Box Office Profit:" << setw(5) << "$" << setw(9) << setprecision(2)  << fixed << gross_profit << endl;
+cout << "Net Box Office Profit:" << setw(7) << "$" << setw(9) << setprecision(2)  << fixed << net_profit << endl;
+cout << "Amount paid to distributor:" << setw(2) << "$" << setw(9) << setprecision(2)  << fixed << distributor_profit << endl;
 
 
 
